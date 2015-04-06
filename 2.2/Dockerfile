@@ -2,8 +2,7 @@ FROM ruby:2.2
 
 MAINTAINER Caleb Land <caleb@land.fm>
 
-ENV DOCKER_HELPERS_VERSION=1.0 \
-SYSLOG_FORWARDER_VERSION=1.0
+ENV DOCKER_HELPERS_VERSION=1.0
 
 # Download our docker helpers
 ADD https://github.com/caleb/docker-helpers/releases/download/v${DOCKER_HELPERS_VERSION}/helpers-v${DOCKER_HELPERS_VERSION}.tar.gz /tmp/helpers.tar.gz
