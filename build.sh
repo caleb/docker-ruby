@@ -14,5 +14,5 @@ cd 1.9
 ./build.sh $NO_CACHE
 cd ..
 
-docker tag -f docker.rodeopartners.com/ruby:2.2.1-jessie docker.rodeopartners.com/ruby:2
-docker tag -f docker.rodeopartners.com/ruby:2.2.1-jessie docker.rodeopartners.com/ruby:latest
+docker tag -f caleb/ruby:2.2.3-jessie caleb/ruby:2
+docker tag -f caleb/ruby:2.2.3-jessie caleb/ruby:latest

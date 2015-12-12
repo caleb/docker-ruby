@@ -12,5 +12,5 @@ cd 1.9
 ./push.sh
 cd ..
 
-docker push docker.rodeopartners.com/ruby:latest
-docker push docker.rodeopartners.com/ruby:2
+docker push caleb/ruby:latest
+docker push caleb/ruby:2
