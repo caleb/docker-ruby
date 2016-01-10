@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+cd 2.3
+./push.sh
+cd ..
+
 cd 2.2
 ./push.sh
 cd ..
