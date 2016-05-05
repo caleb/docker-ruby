@@ -18,5 +18,5 @@ cd 1.9
 ./build.sh $NO_CACHE
 cd ..
 
-docker tag -f caleb/ruby:2.3.0-jessie caleb/ruby:2
-docker tag -f caleb/ruby:2.3.0-jessie caleb/ruby:latest
+docker tag -f caleb/ruby:2.3 caleb/ruby:2
+docker tag -f caleb/ruby:2.3 caleb/ruby:latest
